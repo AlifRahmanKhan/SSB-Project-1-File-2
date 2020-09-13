@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.sign-log-area {
+    text-align: center;
+}
+
+.sign-log-area a {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    width: 50%;
+    float: left;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.sign-up {
+    background: #1ab188;
+    border-radius: 5px 0 0 5px;
+}
+
+.sign-up:hover {
+    background: #1dcf9e;
+}
+
+.log-in {
+    background: #435259;
+    border-radius: 0 5px 5px 0;
+}
+
+.log-in:hover {
+    background: #505e65;
+}
+
+.form-box {
+    width: 600px;
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+    padding: 55px 50px;
+    text-align: center;
+}
+
+.form-box form {
+    text-align: center;
+}
+
+.form-box form input {
+    width: 500px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-box form label {
+    text-align: center;
+}
+
+.btn {
+    background: #1ab188;
+    color: white;
+    width: 500px !important;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+}
+
+.btn:hover {
+    background: #13d4a1;
+}
+
+.Social-Icons {
+    text-align: center;
+}
+
+.Social-Icons ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.Social-Icons ul li a i {
+    height: 60px;
+    width: 60px;
+    background-color: aliceblue;
+    line-height: 60px;
+    border-radius: 100%;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.Social-Icons ul li a i:hover {
+    transform: scale(1.4);
+    transition: 0.5s;
+}
